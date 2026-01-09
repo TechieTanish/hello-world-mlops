@@ -1,4 +1,4 @@
-# Hello-World MLOps
+#\Project-Botanica--ML
 
 This repository demonstrates a tiny reproducible MLOps flow:
 1. Train a small model (`train.py`) — writes `artifacts/model.pkl` and `artifacts/metrics.json`
@@ -9,7 +9,7 @@ This repository demonstrates a tiny reproducible MLOps flow:
 
 ## Quick start (local)
 1. Create and activate a venv (example using python 3.13 or 3.11):
-    python -m venv .venv
+    python3 -m venv .venv
     source .venv/bin/activate
 
 2. Install dependencies:
@@ -25,7 +25,7 @@ This repository demonstrates a tiny reproducible MLOps flow:
 5. Start the API:
     python src/app.py
    Then test:
-    curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d '{"features":[5.1,3.5,1.4,0.2]}'
+    curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{"features":[5.1,3.5,1.4,0.2]}'
 
 🔗 Blog
 
@@ -58,5 +58,10 @@ MLOps Engineer: Automates training, testing, and deployment using CI/CD, Docker,
 🙏 Note
 
 This learning is based on hands-on practice and explanations from Abhishek Sir, with gratitude to divine energy.
+
+![CLI Prediction Output](docs/images/prediction_ml.png)
+
+![API Output](docs/images/api_predict.png)
+
 
 @Tanish

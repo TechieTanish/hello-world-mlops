@@ -11,7 +11,7 @@ if not MODEL_PATH.exists():
     import train as _train
     _train.main()
 
-model = joblib.load(MODEL_PATH)
+model = joblib.load("artifacts/model.pkl")
 
 @app.route("/health", methods=["GET"])
 def health():
