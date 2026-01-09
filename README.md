@@ -59,9 +59,10 @@ MLOps Engineer: Automates training, testing, and deployment using CI/CD, Docker,
 
 This learning is based on hands-on practice and explanations from Abhishek Sir, with gratitude to divine energy.
 
-![CLI Prediction Output](docs/images/prediction_ml.png)
+### Sample Predictions Output
+![CLI Prediction Output](images/prediction_ml.png)
 
-![API Output](docs/images/api_predict.png)
-
+### API Prediction
+![API Output](images/api_predict.png)
 
 @Tanish
